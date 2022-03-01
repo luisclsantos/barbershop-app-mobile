@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-checkbox-false">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="checkbox-false" clip-path="url(#clip-checkbox-false)">
+    <g id="Retângulo_1" data-name="Retângulo 1" fill="none" stroke="#707070" stroke-width="30">
+      <rect width="512" height="512" rx="82" stroke="none"/>
+      <rect x="15" y="15" width="482" height="482" rx="67" fill="none"/>
+    </g>
+  </g>
+</svg>

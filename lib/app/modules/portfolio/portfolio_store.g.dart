@@ -1,0 +1,47 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'portfolio_store.dart';
+
+// **************************************************************************
+// StoreGenerator
+// **************************************************************************
+
+// ignore_for_file: non_constant_identifier_names, unnecessary_brace_in_string_interps, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic
+
+mixin _$PortfolioStore on _PortfolioStoreBase, Store {
+  final _$portfolioListAtom = Atom(name: '_PortfolioStoreBase.portfolioList');
+
+  @override
+  ObservableStream<List<PortfolioModel>>? get portfolioList {
+    _$portfolioListAtom.reportRead();
+    return super.portfolioList;
+  }
+
+  @override
+  set portfolioList(ObservableStream<List<PortfolioModel>>? value) {
+    _$portfolioListAtom.reportWrite(value, super.portfolioList, () {
+      super.portfolioList = value;
+    });
+  }
+
+  final _$_PortfolioStoreBaseActionController =
+      ActionController(name: '_PortfolioStoreBase');
+
+  @override
+  dynamic getPortfolioList() {
+    final _$actionInfo = _$_PortfolioStoreBaseActionController.startAction(
+        name: '_PortfolioStoreBase.getPortfolioList');
+    try {
+      return super.getPortfolioList();
+    } finally {
+      _$_PortfolioStoreBaseActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  String toString() {
+    return '''
+portfolioList: ${portfolioList}
+    ''';
+  }
+}

@@ -1,0 +1,75 @@
+name: barbershops
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+## Slidy Scripts 
+vars: 
+    clean: flutter clean
+    get: flutter pub get
+    runner: flutter pub run build_runner
+scripts: 
+    mobx_build: $runner build
+    mobx_watch: $clean & $get & $runner watch
+    mobx_build_clean: $clean & $get & $runner build --delete-conflicting-outputs
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.4
+  flutter_mobx: ^2.0.3+2
+  mobx: ^2.0.6+1
+  flutter_modular: ^4.4.0
+  flutter_feather_icons: ^2.0.0+1
+  rive: ^0.8.1
+  flutter_svg: ^1.0.3
+  firebase_core: ^1.11.0
+  cloud_firestore: ^3.1.6
+  firebase_database:
+  firebase_auth: ^3.3.5
+  http: ^0.13.4
+  google_sign_in: ^5.2.3
+  flutter_facebook_auth: ^4.0.1
+  google_maps_flutter: ^2.1.1
+  animated_text_kit: ^4.2.1
+  shimmer: ^2.0.0
+  syncfusion_flutter_datepicker: ^19.4.47
+  syncfusion_flutter_gauges: ^19.4.47
+  syncfusion_flutter_barcodes: ^19.4.47
+  path_provider: ^2.0.8
+  path:
+  image_picker:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  mockito: ^5.0.17
+  modular_codegen: any
+  build_runner: any
+  mobx_codegen: any
+  modular_test: ^1.0.1+1
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/illustrations/
+    - assets/icons/headers/
+    - assets/icons/icons/
+    - assets/icons/logos/
+    - assets/icons/mapmarkers/
+    - assets/icons/textfield/
+    - assets/icons/widgets/
+    - assets/icons/bottombar/
+    - assets/images/
