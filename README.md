@@ -9,9 +9,9 @@ Repostório da aplicação Mobile: https://github.com/luisclsantos/barbershop-ap
 ## Ferramentas Utilizadas neste projeto:
 
 ### Linguagens:
-- Javascript
-- HTML
-- CSS
+- Javascript ES6
+- HTML5
+- CSS3
 
 ### Framework:
 - Electron.js
