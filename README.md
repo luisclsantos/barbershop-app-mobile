@@ -1,6 +1,7 @@
 # Aplicativo Barbershop App Book
 
 Aplicação Mobile Android/iOS de agendamentos de cortes de cabelo e barba desenvolvida em Flutter.
+Reposiório da aplicação Web/Desktop: https://github.com/luisclsantos/barbershop-app-web-dashboard
 Ver no Behance: https://www.behance.net/gallery/136457309/UIUX-Barber-Shop-App-20
 
 ![](1.png)
